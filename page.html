@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<title>電子發票</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="source/favicon/favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="source/css/custom.css">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/ab21b0f3a3.js"></script>
+	<style>
+		header{
+			background:#f2f2f2;
+			height: 240px;
+			}
+		.container-620{
+			width: 480px;
+
+		}
+
+	</style>
+<!-- facebook og share-->
+    <!-- <meta property="og:title" content="會展科技領導者" />
+    <meta property="og:url" content="http://faithtech.com.tw" />
+    <meta property="og:image" content="http://faithtech.com.tw/fb-og.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="誠義資訊-Checkin+"/>
+    <meta property="og:description" content="Checkin+ 是活動報到小助手，不論多少人的活動，Checkin+ 都可以幫你節省大量的人力，讓您的活動不再手忙腳亂"/> -->
+<!-- facebook og share--> 
+</head>
+<body class="index">
+	<header class=“header-main”>
+		<div class="container header-bg">
+			
+			<h1 class="text-center">電子發票撰寫</h1>
+			<p class="text-center">訂單編號：</p>
+		</div>
+
+
+	</header>
+
+	<main>
+	<div class="box">
+		<div class="container container-620">
+						
+				<form>
+		<!-- 開立日期 -->
+  			<div class="form-group">
+   	 			<label for="exampleInputEmail1">開立日期</label>
+    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="2016-12-15">
+  			</div>
+  		<!-- 開立日期 -->
+  		<!-- 發票類型 -->	
+  			<div class="radio">
+  				<div>發票類型</div>
+  				<label>
+    				<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    				B - 三聯，給企業
+				</label>
+			</div>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			    C - 三聯，給企業
+			  </label>
+			</div>
+			
+		<!-- 發票類型 -->
+		<!-- 稅別 -->
+		<div class="radio">
+  				<div>稅別</div>
+  				<label>
+    				<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    				1-應稅
+				</label>
+			</div>
+			
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			     2-零稅
+			  </label>
+			</div>
+			
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+			    3-免稅
+			  </label>
+			</div>
+		
+		<!-- 稅別 -->	
+  			
+  			
+  		
+  			<button type="submit" class="btn btn-default">Download Excel</button>
+		</form>			
+			
+		</div>
+	
+
+		
+	</main>
+	<footer></footer>
+
+
+
+</body>
+</html>
